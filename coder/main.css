@@ -1,0 +1,41 @@
+body {
+	background-color: black;
+	padding: 0;
+	margin: 0;
+}
+li {
+	font-weight: 600;
+	font-size: 25px;
+	font-family: 'Sigmar', cursive;
+	list-style-type: none;
+}
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	right: 50%;
+	transform: translateY(-50%);
+}
+.menu ul {
+	display: flex;
+	flex-direction: row;
+}
+.menu li {
+	padding: 15px;
+}
+.menu li a {
+	display: block;
+	color: rgb(28, 85, 85);
+	text-decoration: none;
+	padding: 20px;
+	background-color: rgb(117, 159, 222);
+	border-radius: 50px;
+}
+.menu ul li a:hover {
+	background-color: rgb(34, 141, 174);
+	color: coral;
+}
